@@ -10,11 +10,17 @@
     "lint:watch": "npm run lint -- --watch",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000 --subdomain max33",
+<<<<<<< HEAD
     "share": "npm-run-all --parallel open:src localtunnel",
     "test": "mocha --reporter progress buildScripts/testSetup.js \"src/**/*.test.js\"",
     "test:watch":"npm run test -- --watch"
     },
   "author": "Cory House",
+=======
+    "share":"npm-run-all --parallel open:src localtunnel"
+  },
+  "author": "Salvador Repasa",
+>>>>>>> af12fafb2d35a3fa4e5e5f8ae0f7f8595c0579d6
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
